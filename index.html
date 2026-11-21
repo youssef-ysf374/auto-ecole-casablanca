@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auto-École El Hammoumi & Goud Academie – Casablanca</title>
+  <meta name="description" content="Deux auto-écoles à Casablanca : permis A, B et C, code de la route, formation théorique et pratique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ SVG ICON SPRITE ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="M3 13l2-6a2 2 0 0 1 2-1h10a2 2 0 0 1 2 1l2 6v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H6v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><circle cx="7.5" cy="14" r="1"/><circle cx="16.5" cy="14" r="1"/></symbol>
+    <symbol id="i-moto" viewBox="0 0 24 24"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6h-3l-3.5 11.5"/><path d="M12 17.5h6.5"/><path d="M15 6l3.5 11.5"/><path d="M14 4h3"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></symbol>
+    <symbol id="i-carmoto" viewBox="0 0 24 24"><g transform="translate(0 1) scale(.62)" stroke-width="3.2"><path d="M3 13l2-6a2 2 0 0 1 2-1h10a2 2 0 0 1 2 1l2 6v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H6v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><circle cx="7.5" cy="14" r="1"/><circle cx="16.5" cy="14" r="1"/></g><g transform="translate(10.5 11) scale(.56)" stroke-width="3.4"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6h-3l-3.5 11.5"/><path d="M12 17.5h6.5"/><path d="M15 6l3.5 11.5"/><path d="M14 4h3"/></g></symbol>
+    <symbol id="i-sign"viewBox="0 0 24 24"><path d="M12 2l10 10-10 10L2 12z"/><line x1="12" y1="8" x2="12" y2="13"/><line x1="12" y1="16" x2="12.01" y2="16"/></symbol>
+    <symbol id="i-licence" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="8" cy="12" r="2"/><line x1="13" y1="10" x2="19" y2="10"/><line x1="13" y1="14" x2="18" y2="14"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7"/><polyline points="22 7 22 14"/><path d="M6 9.5V16c0 1.5 3 3 6 3s6-1.5 6-3V9.5"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ TOP INFORMATION BAR ============ -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="top1">Deux auto-écoles à Casablanca</span></span>
+    <span class="hide-sm"><svg class="ic"><use href="#i-licence"/></svg><span data-i18n="top2">Permis A, B et C</span></span>
+    <a href="https://wa.me/212667806157" target="_blank" rel="noopener"><svg class="ic"><use href="#i-phone"/></svg><span data-i18n="top3">WhatsApp / Téléphone :</span> <span class="ltr">06 67 80 61 57</span></a>
+  </div>
+</div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <!-- ONE logo placement only. Insert your logo (transparent PNG, any ratio) at assets/images/logo.png -->
+    <a class="brand img-box-logo" href="#accueil" aria-label="Accueil">
+      <img src="logo.png" alt="Logo" class="logo" onerror="this.parentElement.classList.add('logo-missing');this.remove()">
+      <span class="logo-fallback">LOGO</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Navigation principale">
+      <a href="#accueil" data-i18n="nav_home">Accueil</a>
+      <a href="#formations" data-i18n="nav_courses">Formations</a>
+      <a href="#agences" data-i18n="nav_agencies">Nos agences</a>
+      <a href="#apropos" data-i18n="nav_about">À propos</a>
+      <a href="#avis" data-i18n="nav_reviews">Avis clients</a>
+      <a href="#faq" data-i18n="nav_faq">FAQ</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+      <a href="#agences" class="btn btn-yellow nav-cta-mobile" data-i18n="nav_enroll">S'inscrire</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang" role="group" aria-label="Langue">
+        <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+        <span>|</span>
+        <button type="button" data-lang="ar" aria-pressed="false">AR</button>
+      </div>
+      <a href="#agences" class="btn btn-yellow nav-cta-desktop" data-i18n="nav_enroll">S'inscrire</a>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
+        <svg class="ic ic-open"><use href="#i-menu"/></svg>
+        <svg class="ic ic-close"><use href="#i-close"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="accueil">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="kicker" data-i18n="hero_kicker">AUTO-ÉCOLES À CASABLANCA</p>
+      <h1><span data-i18n="hero_h1a">Apprenez à conduire.</span> <span class="yellow" data-i18n="hero_h1b">Conduisez en toute confiance.</span></h1>
+      <p class="lead" data-i18n="hero_p">Découvrez nos formations théoriques et pratiques pour préparer votre permis de conduire avec nos deux agences à Casablanca.</p>
+      <div class="hero-btns">
+        <a href="#formations" class="btn btn-yellow"><span data-i18n="hero_btn1">Découvrir nos formations</span><svg class="ic arrow"><use href="#i-arrow"/></svg></a>
+        <a href="#agences" class="btn btn-outline" data-i18n="hero_btn2">Choisir une agence</a>
+      </div>
+      <ul class="hero-badges">
+        <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="hb1">Permis A, B et C</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="hb2">Théorie et pratique</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="hb3">2 agences</span></li>
+      </ul>
+    </div>
+    <!-- HERO IMAGE: professional photo of a driving-school car on a road in Morocco / Casablanca (landscape, car on the right, no text or logo in the photo) -->
+    <div class="hero-img img-box" data-ph="assets/images/hero-driving.jpg">
+      <img src="hero photo.jfif" alt="Voiture d'auto-école sur une route à Casablanca" onerror="this.parentElement.classList.add('img-missing');this.remove()">
+    </div>
+  </div>
+</section>
+
+<!-- ============ DARK FEATURES BAR ============ -->
+<div class="container features-wrap">
+  <ul class="features">
+    <li><svg class="ic"><use href="#i-book"/></svg><span data-i18n="f1">Formation théorique</span></li>
+    <li><svg class="ic"><use href="#i-car"/></svg><span data-i18n="f2">Formation pratique</span></li>
+    <li><svg class="ic"><use href="#i-licence"/></svg><span data-i18n="f3">Permis A, B et C</span></li>
+    <li><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="f4">Deux agences à Casablanca</span></li>
+    <li><svg class="ic"><use href="#i-moto"/></svg><span data-i18n="f5">Motos disponibles : 300 cc et 350 cc</span></li>
+  </ul>
+</div>
+
+<!-- ============ COURSES ============ -->
+<section class="section" id="formations">
+  <div class="container">
+    <div class="section-head">
+      <p class="kicker" data-i18n="c_kicker">NOS FORMATIONS</p>
+      <h2 data-i18n="c_title">Nos formations pour chaque catégorie</h2>
+    </div>
+    <div class="grid-4">
+      <article class="card course">
+        <!-- IMAGE: student or learner in a car (permis B), friendly, bright, no text/logo -->
+        <div class="course-img img-box" data-ph="assets/images/permis-b.jpg"><img src="permi voiture.jfif" alt="Permis B – voiture" loading="lazy" onerror="this.parentElement.classList.add('img-missing');this.remove()"></div>
+        <div class="course-body">
+          <span class="circle"><svg class="ic"><use href="#i-car"/></svg></span>
+          <h3 data-i18n="c1_t">PERMIS B – VOITURE</h3>
+          <p data-i18n="c1_d">Préparez votre permis de conduire voiture avec une formation théorique et pratique.</p>
+          <a href="#agences" class="link-yellow"><span data-i18n="learn_more">En savoir plus</span><svg class="ic arrow"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+      <article class="card course">
+        <!-- IMAGE: motorcycle (300 cc / 350 cc class) with rider in protective gear, no text/logo -->
+        <div class="course-img img-box" data-ph="assets/images/permis-a.jpg"><img src="permi moto.jfif" alt="Permis A – moto" loading="lazy" onerror="this.parentElement.classList.add('img-missing');this.remove()"></div>
+        <div class="course-body">
+          <span class="circle"><svg class="ic"><use href="#i-moto"/></svg></span>
+          <h3 data-i18n="c2_t">PERMIS A – MOTO</h3>
+          <p data-i18n="c2_d">Découvrez la formation à la conduite moto et préparez votre permis.</p>
+          <a href="#agences" class="link-yellow"><span data-i18n="learn_more">En savoir plus</span><svg class="ic arrow"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+      <article class="card course">
+        <!-- IMAGE: truck on the road (permis C), no text/logo -->
+        <div class="course-img img-box" data-ph="assets/images/permis-c.jpg"><img src="permi C.jfif" alt="Permis C – camion" loading="lazy" onerror="this.parentElement.classList.add('img-missing');this.remove()"></div>
+        <div class="course-body">
+          <span class="circle"><svg class="ic"><use href="#i-truck"/></svg></span>
+          <h3 data-i18n="c3_t">PERMIS C – CAMION</h3>
+          <p data-i18n="c3_d">Préparez votre permis camion grâce à une formation adaptée.</p>
+          <a href="#agences" class="link-yellow"><span data-i18n="learn_more">En savoir plus</span><svg class="ic arrow"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+      <article class="card course">
+        <!-- IMAGE: road signs / traffic rules / theory classroom, no text/logo -->
+        <div class="course-img img-box" data-ph="assets/images/code-route.jpg"><img src="code de la route.jfif" alt="Code de la route" loading="lazy" onerror="this.parentElement.classList.add('img-missing');this.remove()"></div>
+        <div class="course-body">
+          <span class="circle"><svg class="ic"><use href="#i-sign"/></svg></span>
+          <h3 data-i18n="c4_t">CODE DE LA ROUTE</h3>
+          <p data-i18n="c4_d">Apprenez les règles de circulation et préparez votre examen théorique.</p>
+          <a href="#agences" class="link-yellow"><span data-i18n="learn_more">En savoir plus</span><svg class="ic arrow"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INFORMATION STRIP ============ -->
+<div class="container">
+  <ul class="stats">
+    <li><svg class="ic"><use href="#i-pin"/></svg><div><strong>2</strong><span data-i18n="s1">agences à Casablanca</span></div></li>
+    <li><svg class="ic"><use href="#i-licence"/></svg><div><strong>3</strong><span data-i18n="s2">catégories de permis : A, B et C</span></div></li>
+    <li><svg class="ic"><use href="#i-carmoto"/></svg><div><strong class="stat-title" data-i18n="s3v">Voitures et motos</strong><span data-i18n="s3">Faciles à apprendre et à conduire</span></div></li>
+    <li><svg class="ic"><use href="#i-moto"/></svg><div><strong data-i18n="s4v">300 / 350 cc</strong><span data-i18n="s4">Motos</span></div></li>
+  </ul>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="apropos">
+  <div class="container about">
+    <!-- IMAGE: driving-school car on a Casablanca road / coastline, no text or logo -->
+    <div class="about-img img-box" data-ph="assets/images/about-driving.jpg">
+      <img src="about photos.png" alt="Auto-école à Casablanca" loading="lazy" onerror="this.parentElement.classList.add('img-missing');this.remove()">
+    </div>
+    <div class="about-text">
+      <p class="kicker" data-i18n="ab_kicker">À PROPOS</p>
+      <h2 data-i18n="ab_title">Deux agences, un accompagnement pour votre permis</h2>
+      <p class="muted" data-i18n="ab_p">Auto-École El Hammoumi et Goud Academie vous proposent des formations théoriques et pratiques pour les permis A, B et C à Casablanca.</p>
+      <ul class="checks">
+        <li><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><span data-i18n="ab_l1">Formation théorique et pratique.</span></li>
+        <li><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><span data-i18n="ab_l2">Plusieurs catégories de permis.</span></li>
+        <li><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><span data-i18n="ab_l3">Deux agences à Casablanca.</span></li>
+        <li><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><span data-i18n="ab_l4">Contact direct avec l'agence de votre choix.</span></li>
+      </ul>
+      <a href="#agences" class="btn btn-yellow"><span data-i18n="ab_btn">Choisir une agence</span><svg class="ic arrow"><use href="#i-arrow"/></svg></a>
+    </div>
+    <aside class="about-panel">
+      <h3 data-i18n="ap_title">Nos deux agences</h3>
+      <div class="ap-item">
+        <svg class="ic"><use href="#i-pin"/></svg>
+        <div><strong>EL HAMMOUMI</strong><span data-i18n="ap_el">Lissasfa – Route El Jadida, Casablanca.</span></div>
+      </div>
+      <div class="ap-item">
+        <svg class="ic"><use href="#i-pin"/></svg>
+        <div><strong>GOUD ACADEMIE</strong><span data-i18n="ap_g">Hay Al Masjid, Casablanca.</span></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ NOS AGENCES ============ -->
+<section class="section section-light" id="agences">
+  <div class="container">
+    <div class="section-head">
+      <p class="kicker" data-i18n="ag_kicker">NOS AGENCES</p>
+      <h2 data-i18n="ag_title">Choisissez votre agence à Casablanca</h2>
+      <p class="muted" data-i18n="ag_p">Retrouvez les informations de nos deux agences et contactez directement celle de votre choix.</p>
+    </div>
+
+    <div class="agencies">
+      <!-- AGENCY 1 -->
+      <article class="card agency" id="agence-elhammoumi">
+        <header class="agency-head">
+          <span class="circle"><svg class="ic"><use href="#i-pin"/></svg></span>
+          <h3>Auto-École El Hammoumi</h3>
+        </header>
+        <ul class="info">
+          <li><svg class="ic"><use href="#i-pin"/></svg><div><b data-i18n="l_addr">Adresse</b><span data-i18n="el_addr">Résidence Riad Sofia, Groupe 2, Immeuble 5, Appartement 76, RDC, Hay Lissasfa – Route El Jadida, Casablanca, Morocco.</span></div></li>
+          <li><svg class="ic"><use href="#i-phone"/></svg><div><b data-i18n="l_land">Téléphone fixe</b><a class="ltr" href="tel:+212522655595">05 22 65 55 95</a></div></li>
+          <li><svg class="ic"><use href="#i-wa"/></svg><div><b data-i18n="l_mob">Mobile / WhatsApp</b><a class="ltr" href="tel:+212667806157">06 67 80 61 57</a></div></li>
+          <li><svg class="ic"><use href="#i-mail"/></svg><div><b data-i18n="l_mail">E-mail</b><a class="ltr" href="mailto:elhammoumi.autoecole@gmail.com">elhammoumi.autoecole@gmail.com</a></div></li>
+          <li><svg class="ic"><use href="#i-fb"/></svg><div><b>Facebook</b><a href="https://web.facebook.com/p/Auto-Ecole-El-Hammoumi-100077988079162/?_rdc=1&_rdr#" target="_blank">Auto-Ecole El Hammoumi</a></div></li>
+          <li><svg class="ic"><use href="#i-licence"/></svg><div><b data-i18n="l_serv">Services</b><span data-i18n="serv">Permis A, B, C, Code de la route, formation théorique et pratique.</span></div></li>
+          <li><svg class="ic"><use href="#i-clock"/></svg><div><b data-i18n="l_hours">Horaires</b><span data-i18n="el_hours">Contactez l'agence pour connaître les horaires.</span></div></li>
+        </ul>
+        <div class="agency-btns">
+          <a class="btn btn-yellow" href="tel:+212522655595"><svg class="ic"><use href="#i-phone"/></svg><span data-i18n="b_call">Appeler</span></a>
+          <a class="btn btn-dark" href="https://wa.me/212667806157" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+          <a class="btn btn-outline" href="#" data-map="elhammoumi" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="b_map">Voir l'adresse</span></a>
+        </div>
+      </article>
+
+      <!-- AGENCY 2 -->
+      <article class="card agency" id="agence-goud">
+        <header class="agency-head">
+          <span class="circle"><svg class="ic"><use href="#i-pin"/></svg></span>
+          <h3>Goud Academie</h3>
+        </header>
+        <ul class="info">
+          <li><svg class="ic"><use href="#i-pin"/></svg><div><b data-i18n="l_addr">Adresse</b><span data-i18n="g_addr">N° 10, Hay Al Masjid, Rue H, près du Lycée Al Ghazali, Casablanca 20520, Morocco.</span></div></li>
+          <li><svg class="ic"><use href="#i-phone"/></svg><div><b data-i18n="l_land">Téléphone fixe</b><a class="ltr" href="tel:+212522817347">05 22 81 73 47</a></div></li>
+          <li><svg class="ic"><use href="#i-wa"/></svg><div><b data-i18n="l_mob">Mobile / WhatsApp</b><a class="ltr" href="tel:+212667806157">06 67 80 61 57</a></div></li>
+          <li><svg class="ic"><use href="#i-mail"/></svg><div><b data-i18n="l_mail">E-mail</b><a class="ltr" href="mailto:goud.academie@gmail.com">goud.academie@gmail.com</a></div></li>
+          <li><svg class="ic"><use href="#i-fb"/></svg><div><b>Facebook</b><a href="https://web.facebook.com/p/Goud-Academie-100083746562102/" target="_blank">Goud Academie</a></div></li>
+          <li><svg class="ic"><use href="#i-licence"/></svg><div><b data-i18n="l_serv">Services</b><span data-i18n="serv">Permis A, B, C, Code de la route, formation théorique et pratique.</span></div></li>
+          <li><svg class="ic"><use href="#i-clock"/></svg><div><b data-i18n="l_hours">Horaires</b><span data-i18n="g_h1">Lundi au vendredi : 07:00 – 21:00</span><span data-i18n="g_h2">Samedi et dimanche : 07:00 – 18:00</span></div></li>
+        </ul>
+        <div class="agency-btns">
+          <a class="btn btn-yellow" href="tel:+212522817347"><svg class="ic"><use href="#i-phone"/></svg><span data-i18n="b_call">Appeler</span></a>
+          <a class="btn btn-dark" href="https://wa.me/212667806157" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+          <a class="btn btn-outline" href="#" data-map="goud" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="b_map">Voir l'adresse</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section" id="avis">
+  <div class="container">
+    <div class="section-head">
+      <p class="kicker" data-i18n="rv_kicker">AVIS DE NOS CLIENTS</p>
+      <h2 data-i18n="rv_title">Les avis de nos clients</h2>
+      <p class="rating-sum"><span class="stars" aria-hidden="true"><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg></span><span data-i18n="rv_sum">7 avis Google – 5/5</span></p>
+    </div>
+
+    <div class="grid-3">
+      <article class="card review">
+        <div class="stars" aria-label="5/5"><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg></div>
+        <blockquote data-i18n="rv1">Un grand merci à toute l’équipe de l’auto-école Goud académie, en particulier à Mounia et Elaf pour leur soutien et leur professionnalisme. Grâce à vous, j’ai obtenu 39/40 au code ! Je recommande vivement cette auto-école ❤️❤️❤️</blockquote>
+        <footer><span class="avatar">AN</span><b>Aya Nezhi</b></footer>
+      </article>
+      <article class="card review">
+        <div class="stars" aria-label="5/5"><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg></div>
+        <blockquote data-i18n="rv2">Très satisfaite des services de Goud Academie pour l'obtention du permis B, merci à Simohamed et à toute son équipe pour leur sérieux et leur professionnalisme, je recommande à 100% !</blockquote>
+        <footer><span class="avatar">SD</span><b>Selma Diouri</b></footer>
+      </article>
+      <article class="card review">
+        <div class="stars" aria-label="5/5"><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg><svg class="ic fill"><use href="#i-star"/></svg></div>
+        <blockquote data-i18n="rv3">Equipe formidable toujours a l’écoute, merci pour votre soutien 🙏🙏🙏🙏🙏</blockquote>
+        <footer><span class="avatar">DB</span><b>Dalal Ben</b></footer>
+      </article>
+    </div>
+
+    <!-- REVIEW FORM -->
+    <div class="review-form-wrap card">
+      <h3 data-i18n="fm_title">Partagez votre expérience</h3>
+      <p class="muted" data-i18n="fm_desc">Votre avis compte ! Racontez-nous votre expérience et aidez les futurs élèves.</p>
+      <form id="reviewForm" novalidate>
+        <div class="field">
+          <label for="rName" data-i18n="fm_name">Nom (facultatif)</label>
+          <input type="text" id="rName" name="name" autocomplete="name" data-i18n-placeholder="fm_name_ph" placeholder="Votre nom">
+        </div>
+        <div class="field">
+          <span class="label" id="ratingLabel" data-i18n="fm_rating">Note</span>
+          <div class="star-input" id="starInput" role="radiogroup" aria-labelledby="ratingLabel">
+            <button type="button" role="radio" aria-checked="false" data-value="1" aria-label="1"><svg class="ic"><use href="#i-star"/></svg></button>
+            <button type="button" role="radio" aria-checked="false" data-value="2" aria-label="2"><svg class="ic"><use href="#i-star"/></svg></button>
+            <button type="button" role="radio" aria-checked="false" data-value="3" aria-label="3"><svg class="ic"><use href="#i-star"/></svg></button>
+            <button type="button" role="radio" aria-checked="false" data-value="4" aria-label="4"><svg class="ic"><use href="#i-star"/></svg></button>
+            <button type="button" role="radio" aria-checked="false" data-value="5" aria-label="5"><svg class="ic"><use href="#i-star"/></svg></button>
+          </div>
+          <p class="error" id="ratingError" hidden data-i18n="err_rating">Veuillez choisir une note de 1 à 5 étoiles.</p>
+        </div>
+        <div class="field">
+          <label for="rText" data-i18n="fm_text">Votre avis</label>
+          <textarea id="rText" name="review" rows="5" required data-i18n-placeholder="fm_text_ph" placeholder="Écrivez votre avis ici..."></textarea>
+          <p class="error" id="textError" hidden data-i18n="err_text">Veuillez écrire votre avis.</p>
+        </div>
+        <button type="submit" class="btn btn-yellow btn-block"><svg class="ic"><use href="#i-wa"/></svg><span data-i18n="fm_submit">Envoyer mon avis</span></button>
+        <p class="note" data-i18n="fm_note">Votre avis sera envoyé pour validation avant sa publication.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section-light" id="faq">
+  <div class="container faq-wrap">
+    <div class="section-head">
+      <p class="kicker" data-i18n="fq_kicker">FAQ</p>
+      <h2 data-i18n="fq_title">Questions fréquentes</h2>
+    </div>
+    <div class="faq" id="faqList">
+      <!-- items are plain HTML; JS only toggles them -->
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q1">Quelles catégories de permis sont disponibles ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a1">Les deux agences proposent les formations pour les permis A, B et C.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q2">Quels types de formations proposez-vous ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a2">Les deux agences proposent une formation théorique et une formation pratique, ainsi qu'une préparation au Code de la route.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q3">Quelles sont les cylindrées des motos disponibles ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a3">Les motos disponibles comprennent des modèles de 300 cc et de 350 cc.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q4">Quelle est la différence entre El Hammoumi et Goud Academie ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a4">Ce sont deux agences distinctes, situées à des adresses différentes à Casablanca. Elles proposent les mêmes catégories de formation. Vous pouvez choisir l'agence qui vous convient.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q5">Où se trouve Auto-École El Hammoumi ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a5">À la Résidence Riad Sofia, Groupe 2, Immeuble 5, Appartement 76, RDC, Hay Lissasfa – Route El Jadida, Casablanca.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q6">Où se trouve Goud Academie ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a6">Au N° 10, Hay Al Masjid, Rue H, près du Lycée Al Ghazali, Casablanca 20520.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q7">Quels sont les horaires de Goud Academie ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a7">Du lundi au vendredi de 07:00 à 21:00 et le samedi et dimanche de 07:00 à 18:00.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q8">Quels sont les horaires d'Auto-École El Hammoumi ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a8">Veuillez contacter directement l'agence pour connaître ses horaires.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q9">Comment puis-je m'inscrire ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a9">Vous pouvez contacter directement l'agence de votre choix par téléphone ou WhatsApp.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q10">Comment connaître les tarifs ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a10">Contactez directement l'agence concernée pour obtenir les informations sur les tarifs.</p></div></div></div>
+      <div class="faq-item"><button class="faq-q" type="button" aria-expanded="false"><span data-i18n="q11">Les deux agences proposent-elles les mêmes formations ?</span><svg class="ic"><use href="#i-chevron"/></svg></button><div class="faq-a"><div><p data-i18n="a11">Oui, les deux agences proposent les permis A, B et C, ainsi que la formation théorique et pratique.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="cta" id="contact">
+  <!-- IMAGE: wide driving-related background (road, coastline, car), dark overlay is added by CSS, no text/logo -->
+  <div class="cta-bg img-box" data-ph="assets/images/cta-driving.jpg">
+    <img src="hero photo.jfif" alt="" loading="lazy" onerror="this.parentElement.classList.add('img-missing');this.remove()">
+  </div>
+  <div class="container cta-inner">
+    <div>
+      <h2 data-i18n="cta_title">Prêt à commencer votre formation ?</h2>
+      <p data-i18n="cta_p">Choisissez votre agence et contactez-nous pour obtenir plus d'informations.</p>
+    </div>
+    <a href="#agences" class="btn btn-yellow"><span data-i18n="cta_btn">Choisir mon agence</span><svg class="ic arrow"><use href="#i-arrow"/></svg></a>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="f-col f-about">
+      <p class="f-brand">Auto-École El Hammoumi<br>& Goud Academie</p>
+      <p class="f-desc" data-i18n="ft_desc">Deux auto-écoles à Casablanca : permis A, B et C.</p>
+    </div>
+    <div class="f-col">
+      <h4 data-i18n="ft_links">LIENS RAPIDES</h4>
+      <a href="#accueil" data-i18n="nav_home">Accueil</a>
+      <a href="#formations" data-i18n="nav_courses">Formations</a>
+      <a href="#agences" data-i18n="nav_agencies">Nos agences</a>
+      <a href="#apropos" data-i18n="nav_about">À propos</a>
+      <a href="#avis" data-i18n="nav_reviews">Avis clients</a>
+      <a href="#faq" data-i18n="nav_faq">FAQ</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </div>
+    <div class="f-col">
+      <h4 data-i18n="ft_courses">FORMATIONS</h4>
+      <a href="#formations" data-i18n="c1_t">PERMIS B – VOITURE</a>
+      <a href="#formations" data-i18n="c2_t">PERMIS A – MOTO</a>
+      <a href="#formations" data-i18n="c3_t">PERMIS C – CAMION</a>
+      <a href="#formations" data-i18n="c4_t">CODE DE LA ROUTE</a>
+    </div>
+    <div class="f-col f-agency">
+      <h4>AUTO-ÉCOLE EL HAMMOUMI</h4>
+      <p><svg class="ic"><use href="#i-phone"/></svg><a class="ltr" href="tel:+212522655595">05 22 65 55 95</a></p>
+      <p><svg class="ic"><use href="#i-wa"/></svg><a class="ltr" href="https://wa.me/212667806157" target="_blank" rel="noopener">06 67 80 61 57</a></p>
+      <p><svg class="ic"><use href="#i-mail"/></svg><a class="ltr" href="mailto:elhammoumi.autoecole@gmail.com">elhammoumi.autoecole@gmail.com</a></p>
+      <p><svg class="ic"><use href="#i-fb"/></svg><a href="https://web.facebook.com/p/Auto-Ecole-El-Hammoumi-100077988079162/?_rdc=1&_rdr#" target="_blank">Auto-Ecole El Hammoumi</a></p>
+    </div>
+    <div class="f-col f-agency">
+      <h4>GOUD ACADEMIE</h4>
+      <p><svg class="ic"><use href="#i-phone"/></svg><a class="ltr" href="tel:+212522817347">05 22 81 73 47</a></p>
+      <p><svg class="ic"><use href="#i-wa"/></svg><a class="ltr" href="https://wa.me/212667806157" target="_blank" rel="noopener">06 67 80 61 57</a></p>
+      <p><svg class="ic"><use href="#i-mail"/></svg><a class="ltr" href="mailto:goud.academie@gmail.com">goud.academie@gmail.com</a></p>
+      <p><svg class="ic"><use href="#i-fb"/></svg><a href="https://web.facebook.com/p/Goud-Academie-100083746562102/" target="_blank">Goud Academie</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> Auto-École El Hammoumi & Goud Academie. <span data-i18n="ft_rights">Tous droits réservés.</span></span>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
